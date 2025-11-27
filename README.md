@@ -72,9 +72,7 @@ Cada tarjeta muestra:
 
 ## Proyecto:
 - Link repositorio: https://github.com/PaulaGarabaya/Weather_info---REACT
-- Link despliegue:
+- Link despliegue: https://69286b0536e0d8c90a747940--weathe-info.netlify.app/ 
 
 ## Autor
-Paula
-- Linkedin: 
-- Github: https://github.com/PaulaGarabaya
+Paula Rodriguez Garabaya
