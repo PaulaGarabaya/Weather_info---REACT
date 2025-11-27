@@ -1,0 +1,78 @@
+/* Estilo general */
+section {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 15px;
+  color: #333;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e90ff;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+input[name="city"] {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 2px solid #1e90ff;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  width: 70%;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 17px;
+  border: 2px solid #1e90ff;
+  border-left: none;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #104e8b;
+}
+
+/* Cada bloque horario */
+.weather-hour {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.bold {
+  font-weight: bold;
+  /* font-size: 20px; */
+}
+
+
+@media (max-width: 480px) {
+  input[name="city"] {
+    width: 60%;
+  }
+
+  .weather-hour {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .weather-temp {
+    width: auto;
+    margin-top: 5px;
+  }
+}
